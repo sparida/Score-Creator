@@ -6,7 +6,7 @@ from fractions import gcd
 from SoundGenerator import SoundGenerator
 from UtilityFunctions import *
 
-# Class to handle note properties and genrate sound for each note using tempo and an envelope
+# Class to handle note properties and genderate sound for each note using tempo and an envelope
 class Note:
 	def __init__(self, noteValue = "C4", velocity = 1.0, startLocation = 0, noteLength = 32, waveType = "Sine"):
 		self.noteValue = noteValue # Actual note 
